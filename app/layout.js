@@ -20,7 +20,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <div className={styles.page}>
+            <div style={{width:'100vw',height:"100vh",backgroundColor:"#0A2342"}}>
+              <h1>WELCOME BACK ANISH KRISHNAN</h1>
+            </div>
+          </div>
       </body>
     </html>
   );
